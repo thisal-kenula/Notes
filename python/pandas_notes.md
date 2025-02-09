@@ -1,11 +1,6 @@
 # Pandas
 
-<aside>
-💡
-
 Learn From: [Non-null](https://www.w3schools.com/python/pandas/pandas_analyzing.asp#:~:text=Null%20Values)
-
-</aside>
 
 ## Install
 
@@ -175,13 +170,14 @@ df = pd.read_csv('/Users/thisalkenula/Desktop/data.csv')
 ```
 
 - Otherwise the file should be in current working directory
+
 ### Print entire DataFrame
 
 ```python
 
 df = pd.read_csv('data.csv')
 
-print(df.**to_string**())
+print(df.to_string())
 ```
 
 ### `max_rows`

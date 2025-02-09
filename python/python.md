@@ -2380,7 +2380,6 @@ print("Formatted date and time: ", formatted_datetime)
 # Get the weekday name
 weekday_name = current_datetime.strftime("%A")
 print("Weekday name: ", weekday_name)
-
 ```
 
 [All legal formats →](https://www.w3schools.com/python/python_datetime.asp)

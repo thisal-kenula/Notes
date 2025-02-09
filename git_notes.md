@@ -21,6 +21,7 @@ git config --global user.email "[test@w3schools.com](mailto:test@w3schools.com)"
 **After navigating to the folder(repository)**
 
 - initialize folder for git: `git init`
+
 - `git status` or `git status --short`
 
 ### Choose files to ignore

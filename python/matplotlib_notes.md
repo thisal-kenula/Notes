@@ -1,11 +1,6 @@
 # Matplotlib
 
-<aside>
-💡
-
-Learn from: [Grid Lines](https://www.w3schools.com/python/matplotlib_grid.asp#:~:text=Specify%20Which%20Grid%20Lines%20to%20Display)
-
-</aside>
+**💡 Learn from: [Grid Lines](https://www.w3schools.com/python/matplotlib_grid.asp#:~:text=Specify%20Which%20Grid%20Lines%20to%20Display)**
 
 ## Plotting
 
@@ -64,32 +59,32 @@ plt.plot(ypoints, marker = **'o'**)
 
 ### Other markers
 
+| 'o' | Circle         |       |
+| --- | -------------- | ----- |
+| '*' | Star           |       |
+| '.' | Point          |       |
+| ',' | Pixel          |       |
+| 'x' | X              |       |
+| 'X' | X (filled)     |       |
+| '+' | Plus           |       |
+| 'P' | Plus (filled)  |       |
+| 's' | Square         |       |
+| 'D' | Diamond        |       |
+| 'd' | Diamond (thin) |       |
+| 'p' | Pentagon       |       |
+| 'H' | Hexagon        |       |
+| 'h' | Hexagon        |       |
+| 'v' | Triangle Down  |       |
+| '^' | Triangle Up    |       |
+| '<' | Triangle Left  |       |
+| '>' | Triangle Right |       |
+| '1' | Tri Down       |       |
+| '2' | Tri Up         |       |
+| '3' | Tri Left       |       |
+| '4' | Tri Right      |       |
+| '   | '              | Vline |
+| '_' | Hline          |       |
 
-| 'o' | Circle |
-| --- | --- |
-| '*' | Star |
-| '.' | Point |
-| ',' | Pixel |
-| 'x' | X |
-| 'X' | X (filled) |
-| '+' | Plus |
-| 'P' | Plus (filled) |
-| 's' | Square |
-| 'D' | Diamond |
-| 'd' | Diamond (thin) |
-| 'p' | Pentagon |
-| 'H' | Hexagon |
-| 'h' | Hexagon |
-| 'v' | Triangle Down |
-| '^' | Triangle Up |
-| '<' | Triangle Left |
-| '>' | Triangle Right |
-| '1' | Tri Down |
-| '2' | Tri Up |
-| '3' | Tri Left |
-| '4' | Tri Right |
-| '|' | Vline |
-| '_' | Hline |
 ### Customize marker
 
 ```python
@@ -132,8 +127,8 @@ plt.show()
     | ':' | Dotted line |
     | '--' | Dashed line |
     | '-.' | Dashed/dotted line |
-- Colors
     
+- Colors
     
     | 'r' | Red |
     | --- | --- |
@@ -144,7 +139,9 @@ plt.show()
     | 'y' | Yellow |
     | 'k' | Black |
     | 'w' | White |
+
 ## Line
+
 ### Line styles
 - Use keyword argument `linestyle` or `ls`
     
@@ -152,7 +149,6 @@ plt.show()
     plt.plot(ypoints, linestyle = 'dotted') # or just ':'
     ```
     
-
 | 'solid' (default) | '-' |
 | --- | --- |
 | 'dotted' | ':' |
